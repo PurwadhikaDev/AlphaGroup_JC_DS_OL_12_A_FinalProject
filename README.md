@@ -8,6 +8,25 @@ Dengan market size yang besar dan pertumbuhan yang tinggi, maka bisnis jual - be
 Tetapi tentu saja jika sebuah market memiliki potensi keuntungan yang tinggi, akan ada banyak pelaku pasar yang akan bersaing di dalamnya.
 
 
+Business Model
+
+Sebagai sebuah dealer mobil bekas, Alpha menghasilkan profit dengan cara secara strategis melakukan pembelian mobil dengan harga serendah mungkin kemudian menjualnya kembali di atas harga pembelian tersebut. 
+Margin keuntungan didapatkan berdasarkan perbedaan harga beli dan harga jual, sehingga semakin kecil dana yang dikeluarkan untuk melakukan pembelian mobil, maka semakin besar potensi profit yang bisa didapatkan.
+
+
+Business Problem
+
+Stakeholder pada project ini adalah Alpha, yang merupakan dealer mobil bekas. 
+Sebagai salah satu pemain dalam industri mobil bekas di UK yang terus tumbuh, Alpha perlu memiliki competitive advantage untuk meningkatkan profitabilitas perusahaan. 
+Salah satu caranya adalah Alpha harus mampu menentukan harga mobil bekas dengan akurat, karena ini akan berhubungan langsung dengan profitabilitas sebuah dealer mobil bekas.
+
+Memprediksi harga mobil bekas secara akurat sangat penting untuk memastikan margin keuntungan dapat dijaga sebesar mungkin. 
+Namun, sifat dinamis pasar mobil bekas, yang dipengaruhi oleh faktor-faktor seperti tipe kendaraan, usia, jarak tempuh, dan reputasi merek, menghadirkan tantangan berat terhadap keputusan penentuan harga suatu kendaraan.
+
+Jika Alpha melakukan pembelian mobil dengar harga yang terlalu tinggi dapat menyebabkan berkurangnya margin profit yang bisa didapatkan, bahkan jika Alpha melakukan pembelian lebih tinggi dari harga di pasar, dapat menyebabkan kerugian. 
+Oleh karena itu, untuk memastikan margin keuntungan dapat dijaga sehingga profitabilitas dari dealer mobil Alpha dapat terus meningkat, diperlukan cara untuk memprediksi harga suatu mobil menggunakan data di pasar agar Alpha dapat menentukan harga beli, dan harga jual mobil yang paling optimal dalam segi keuntungan perusahaan.
+
+
 Goal
 
 Berdasarkan permasalahan tersebut, Alpha perlu memiliki tool yang dapat memprediksi harga mobil bekas sesuai dengan harga di pasar. 
@@ -17,4 +36,12 @@ Oleh karena itu, kesuksesan pada project ini dapat dicapai dengan kriteria berik
 * Model dapat memprediksi harga mobil dengan akurat berdasarkan fitur yang relevan sehingga perusahaan dapat melakukan informed decision pada setiap tindakan jual - beli mobil bekas.
 * Mengetahui faktor-faktor apa saja yang dapat mempengaruhi harga mobil bekas
 * Hasil prediksi model dapat meningkatkan profitabilitas perusahaan.
+
+
+Analytic Approach
+
+Untuk menjawab business problem pada project ini, akan dibuat sebuah model machine learning dengan metode regresi. 
+Model machine learning ini nantinya akan menggunakan data yang tersedia seperti brand, model, mileage, engine size menjadi fitur - fitur untuk memprediksi harga dari masing - masing mobil tersebut.
+
+Model ini nantinya akan membantu Alpha membuat sebuah informed decision sebagai sebuah 'tool' untuk memprediksi harga mobil yang akan ditransaksikan.
 
